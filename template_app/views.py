@@ -14,5 +14,6 @@ def weather_view(request):
         "paris" : [5,14,20,21],
         "rome" : {"morning" : 10, "evening" : 20},
         "user_premium" : True,
+        "test" : "Test test Test test"
         }
     return render(request,"template_app/weather.html",context=weather_dictionary)
